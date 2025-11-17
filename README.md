@@ -83,8 +83,10 @@ to drive model inference.
 - GPU support recommended for faster-whisper
 
 ## Install Dependencies
+Run the command:
+```bash
 pip install -r requirements.txt
-
+```
 
 ### dependencies:
 - py-cord
