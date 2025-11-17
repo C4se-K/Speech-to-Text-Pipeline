@@ -32,19 +32,6 @@ Audio, commands, and outbound messages all move through producer/consumer queues
 
 ---
 
-## Project Structure
-.
-├── main.py
-├── interface_discord_pycord.py
-├── discord_audio_helper.py
-├── transcription.py
-└── README.md
-
-
-
-
----
-
 ## System Flow
 
 ### 1. Bot Startup
