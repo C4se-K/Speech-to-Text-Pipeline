@@ -33,12 +33,13 @@ Audio, commands, and outbound messages all move through producer/consumer queues
 ---
 
 ## Project Structure
-/
-├── main.py                      # Entry point, orchestration, event loop
-├── interface_discord_pycord.py  # Discord bot wrapper + command registration
-├── discord_audio_helper.py      # Overrides VoiceClient and DecodeManager
-├── transcription.py             # Transcription_Manager (not shown in prompt)
-├── README.md                    # (this file)
+.
+├── main.py
+├── interface_discord_pycord.py
+├── discord_audio_helper.py
+├── transcription.py
+└── README.md
+
 
 
 
