@@ -122,8 +122,9 @@ To stop:
 ## Concurrency Model
 
 The system uses multiple threads:
-Discord event loop thread — Runs Pycord (asyncio).
-Decode thread — Converts Opus packets to PCM frames.
-Messenger thread — Moves audio and messages between queues.
-Main loop — Continuously drives the transcription engine.
+- Discord event loop thread — Runs Pycord (asyncio).
+- Decode thread — Converts Opus packets to PCM frames.
+- Messenger thread — Moves audio and messages between queues.
+- Main loop — Continuously drives the transcription engine.
+  
 This separation ensures that Whisper inference never blocks Discord’s event loop.
