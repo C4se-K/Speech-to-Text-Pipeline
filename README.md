@@ -1,4 +1,4 @@
-# Discord Real-Time Transcription Bot
+# Real-Time Transcription Discord Bot
 
 A real-time audio capture and transcription pipeline for Discord voice channels, built with **Pycord**, **faster-whisper**, and a threaded message-passing architecture. The system intercepts raw Opus voice packets, decodes them into PCM frames, streams them into a transcription manager, and posts transcribed text back to Discord in real time.
 
